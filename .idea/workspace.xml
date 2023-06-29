@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f5e2cc-d233-4c3a-a7ed-363154653cac" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/iav/demo_javafx/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/iav/demo_javafx/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/iav/demo_scene_builder/HelloApplicationScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/iav/demo_scene_builder/HelloApplicationScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/StudentDB_Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/StudentDB_Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/model/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/de/iav/demo_javafx/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/de/iav/demo_javafx/hello-view.fxml" afterDir="false" />
     </list>
@@ -13,6 +19,15 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+        <option value="Record" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,11 +42,51 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/de/iav/demo_javafx" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="de.iav" />
+      <recent name="de.iav.demo_javafx" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.iav.demo_studentdb" />
+      <recent name="de.iav.demo_scene_builder" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.iav.demo_javafx.HelloApplication" />
+      <module name="demo_JavaFX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.iav.demo_javafx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,8 +95,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687942525211</updated>
-      <workItem from="1687942526458" duration="1000" />
+      <workItem from="1687942526458" duration="10701000" />
+      <workItem from="1687962531972" duration="5558000" />
+      <workItem from="1688024576662" duration="7159000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

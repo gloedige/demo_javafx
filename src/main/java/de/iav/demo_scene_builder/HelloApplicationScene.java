@@ -1,4 +1,4 @@
-package de.iav.demo_javafx.demo_scene_builder;
+package de.iav.demo_scene_builder;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
