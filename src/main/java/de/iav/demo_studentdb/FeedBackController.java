@@ -21,7 +21,8 @@ public class FeedBackController {
     @FXML
     private Button ButtonBackToInput;
     @FXML
-    private ListView<Student> listView = new ListView<>();
+    private ListView<Student> listView;
+
 
     @FXML
     public void switchToInputScene(ActionEvent event) throws IOException {

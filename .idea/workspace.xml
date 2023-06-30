@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f5e2cc-d233-4c3a-a7ed-363154653cac" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/FeedBackController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/WelcomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/iav/demo_javafx/StudentFeedBackScene.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/iav/demo_javafx/StudentWelcomeScene.fxml" afterDir="false" />
+    <list default="true" id="09f5e2cc-d233-4c3a-a7ed-363154653cac" name="Changes" comment="Übergabe an Liste ohne Anzeige">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/StudentInputController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/StudentDB_Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/StudentDB_Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/de/iav/demo_javafx/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/de/iav/demo_javafx/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/FeedBackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/FeedBackController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +109,7 @@
       <workItem from="1687942526458" duration="10701000" />
       <workItem from="1687962531972" duration="5558000" />
       <workItem from="1688024576662" duration="8465000" />
-      <workItem from="1688113122434" duration="14015000" />
+      <workItem from="1688113122434" duration="14380000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1688044245229</created>
@@ -124,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688044245229</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Übergabe an Liste ohne Anzeige">
+      <created>1688132618221</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688132618221</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +133,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Übergabe an Liste ohne Anzeige" />
+    <option name="LAST_COMMIT_MESSAGE" value="Übergabe an Liste ohne Anzeige" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -149,7 +151,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/FeedBackController.java</url>
-          <line>39</line>
+          <line>41</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
