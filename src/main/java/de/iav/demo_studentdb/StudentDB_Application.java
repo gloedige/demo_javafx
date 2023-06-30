@@ -11,8 +11,8 @@ public class StudentDB_Application extends Application {
     @Override
     public void start(Stage stage) throws IOException {
 
-        FXMLLoader loader = new FXMLLoader(StudentDB_Application.class.getResource("/de/iav/demo_javafx/StudentDB_SceneBuilder_ChoiceBox.fxml"));
-        Scene scene = new Scene (loader.load(),500,500);
+        FXMLLoader loader = new FXMLLoader(StudentDB_Application.class.getResource("/de/iav/demo_javafx/StudentWelcomeScene.fxml"));
+        Scene scene = new Scene (loader.load(),300,200);
 
         stage.setTitle("Student DB");
         stage.setScene(scene);

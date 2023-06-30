@@ -1,17 +1,21 @@
 package de.iav.demo_studentdb;
 
 import de.iav.demo_studentdb.model.Student;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
-import org.controlsfx.control.PropertySheet;
+import javafx.stage.Stage;
 
+import java.io.IOException;
 import java.net.URL;
-import java.util.List;
-import java.util.PrimitiveIterator;
 import java.util.ResourceBundle;
 
-public class StudentController implements Initializable {
+public class StudentInputController implements Initializable {
 
     @FXML
     private ChoiceBox<String> isActiveChoiceBox;
@@ -22,6 +26,13 @@ public class StudentController implements Initializable {
     private TextField studentName;
     @FXML
     private ComboBox<String> coursesComboBox;
+    private Scene scene;
+    private Stage stage;
+    private Parent root;
+    private Student createdStudent;
+
+    @FXML
+    private Button backToWelcome;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -38,11 +49,14 @@ public class StudentController implements Initializable {
     }
     @FXML
     protected void createStudent(){
-        System.out.println("new Student is: " + new Student(
+        createdStudent = new Student(
                 studentId.getText(),
                 studentName.getText(),
                 coursesComboBox.getValue(),
-                isActiveChoiceBox.getValue()));
+                isActiveChoiceBox.getValue());
+        System.out.println("new Student is: " + createdStudent);
+
+
     }
     @FXML
     protected void clearForm(){
@@ -51,4 +65,24 @@ public class StudentController implements Initializable {
         coursesComboBox.setValue("");
         isActiveChoiceBox.setValue("");
     }
+    @FXML
+    public void switchToListScene(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/de/iav/demo_javafx/StudentFeedBackScene.fxml"));
+        root = loader.load();
+        createStudent();
+
+        FeedBackController feedbackcontroller = loader.getController();
+        //Option 1
+        //feedbackcontroller.listView.getItems().add(createdStudent);
+        //Option 2
+        feedbackcontroller.addStudentToList(createdStudent);
+
+
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+
+        stage.show();
+    }
+
 }
