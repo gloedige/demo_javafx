@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f5e2cc-d233-4c3a-a7ed-363154653cac" name="Changes" comment="Create a delete methode in FeedBackController">
+    <list default="true" id="09f5e2cc-d233-4c3a-a7ed-363154653cac" name="Changes" comment="Rename of Controller and fxml-files. Sort order in StudentRegistrationScene.fxml">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/service/Studentenservice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/FeedBackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/StudentOutputController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/StudentInputController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/StudentInputController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/WelcomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/de/iav/demo_javafx/StudentDB_SceneBuilder_ChoiceBox.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/de/iav/demo_javafx/StudentRegistrationScene.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/de/iav/demo_javafx/StudentFeedBackScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/de/iav/demo_javafx/StudentListScene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/StudentOutputController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/StudentOutputController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +110,7 @@
       <workItem from="1687942526458" duration="10701000" />
       <workItem from="1687962531972" duration="5558000" />
       <workItem from="1688024576662" duration="8465000" />
-      <workItem from="1688113122434" duration="19986000" />
+      <workItem from="1688113122434" duration="21714000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1688044245229</created>
@@ -143,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688137645652</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Rename of Controller and fxml-files. Sort order in StudentRegistrationScene.fxml">
+      <created>1688139148105</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688139148105</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +158,8 @@
     <MESSAGE value="Übergabe an Liste ohne Anzeige" />
     <MESSAGE value="Übergabe in Liste funktioniert!" />
     <MESSAGE value="Create a delete methode in FeedBackController" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a delete methode in FeedBackController" />
+    <MESSAGE value="Rename of Controller and fxml-files. Sort order in StudentRegistrationScene.fxml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename of Controller and fxml-files. Sort order in StudentRegistrationScene.fxml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

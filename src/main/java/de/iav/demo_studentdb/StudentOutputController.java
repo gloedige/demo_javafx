@@ -40,8 +40,7 @@ public class StudentOutputController {
     }
 
     public void addStudentToList(Student student){
-
-        listView.getItems().add(student.name() + "-" + student.id());
+        listView.getItems().add(student.name() + " - " + student.course());
     }
 
     public void deleteStudent(){
