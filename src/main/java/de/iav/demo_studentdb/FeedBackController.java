@@ -1,6 +1,8 @@
 package de.iav.demo_studentdb;
 
 import de.iav.demo_studentdb.model.Student;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -21,7 +23,8 @@ public class FeedBackController {
     @FXML
     private Button ButtonBackToInput;
     @FXML
-    private ListView<Student> listView;
+    private ListView<String> listView;
+    private ObservableList<String> studentsToDelete;
 
 
     @FXML
@@ -38,7 +41,20 @@ public class FeedBackController {
 
     public void addStudentToList(Student student){
 
-        listView.getItems().add(student);
+        listView.getItems().add(student.name() + student.id());
     }
 
+    public void deleteStudent(){
+        String selectedStudent = listView.getSelectionModel().getSelectedItem();
+        if(selectedStudent != null) {
+            studentsToDelete.remove(selectedStudent);
+            listView.refresh();
+        }
+    }
+    @FXML
+    private void initialize() {
+        // Initialize the items list
+        studentsToDelete = FXCollections.observableArrayList();
+        listView.setItems(studentsToDelete);
+    }
 }

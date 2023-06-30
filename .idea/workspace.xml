@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f5e2cc-d233-4c3a-a7ed-363154653cac" name="Changes" comment="Übergabe an Liste ohne Anzeige">
+    <list default="true" id="09f5e2cc-d233-4c3a-a7ed-363154653cac" name="Changes" comment="Übergabe in Liste funktioniert!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/FeedBackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/FeedBackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/de/iav/demo_javafx/StudentFeedBackScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/de/iav/demo_javafx/StudentFeedBackScene.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,7 @@
       <workItem from="1687942526458" duration="10701000" />
       <workItem from="1687962531972" duration="5558000" />
       <workItem from="1688024576662" duration="8465000" />
-      <workItem from="1688113122434" duration="14380000" />
+      <workItem from="1688113122434" duration="18213000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1688044245229</created>
@@ -125,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688132618221</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Übergabe in Liste funktioniert!">
+      <created>1688132971757</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688132971757</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,28 +142,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Übergabe an Liste ohne Anzeige" />
-    <option name="LAST_COMMIT_MESSAGE" value="Übergabe an Liste ohne Anzeige" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/StudentInputController.java</url>
-          <line>77</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/StudentInputController.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/FeedBackController.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Übergabe in Liste funktioniert!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Übergabe in Liste funktioniert!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

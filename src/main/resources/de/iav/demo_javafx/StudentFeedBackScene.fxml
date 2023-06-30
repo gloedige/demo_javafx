@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ListView?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" prefHeight="300.0" prefWidth="200.0" spacing="20.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.iav.demo_studentdb.FeedBackController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-    </padding>
-   <Label text="Student Data are:">
-      <font>
-         <Font size="16.0" />
-      </font>
-   </Label>
-   <ListView fx:id="listView" prefHeight="200.0" prefWidth="200.0" />
-    <Button onAction="#switchToInputScene" text="Switch to input!" />
-</VBox>
+
+<AnchorPane prefHeight="269.0" prefWidth="257.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.iav.demo_studentdb.FeedBackController">
+   <children>
+      <ListView fx:id="listView" layoutX="7.0" layoutY="26.0" prefHeight="194.0" prefWidth="243.0" />
+      <Label layoutX="76.0" layoutY="4.0" text="List of Students">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+       <Button layoutX="7.0" layoutY="230.0" onAction="#switchToInputScene" text="Switch to input!" />
+      <Button layoutX="135.0" layoutY="230.0" mnemonicParsing="false" onAction="#deleteStudent" prefHeight="25.0" prefWidth="114.0" text="Delete" />
+   </children>
+</AnchorPane>
