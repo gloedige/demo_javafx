@@ -67,15 +67,15 @@ public class StudentInputController implements Initializable {
     }
     @FXML
     public void switchToListScene(ActionEvent event) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/de/iav/demo_javafx/StudentFeedBackScene.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/de/iav/demo_javafx/StudentListScene.fxml"));
         root = loader.load();
         createStudent();
 
-        FeedBackController feedbackcontroller = loader.getController();
+        StudentOutputController studentOutputController = loader.getController();
         //Option 1
-        //feedbackcontroller.listView.getItems().add(createdStudent);
+        //studentOutputController.listView.getItems().add(createdStudent);
         //Option 2
-        feedbackcontroller.addStudentToList(createdStudent);
+        studentOutputController.addStudentToList(createdStudent);
 
 
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
@@ -84,5 +84,15 @@ public class StudentInputController implements Initializable {
 
         stage.show();
     }
+    @FXML
+    public void switchToWelcomeScene(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/de/iav/demo_javafx/StudentWelcomeScene.fxml"));
+        root = loader.load();
 
-}
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+
+
+    }
+    }

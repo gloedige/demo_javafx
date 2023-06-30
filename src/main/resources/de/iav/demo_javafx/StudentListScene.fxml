@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="269.0" prefWidth="257.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.iav.demo_studentdb.FeedBackController">
+<AnchorPane prefHeight="269.0" prefWidth="257.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.iav.demo_studentdb.StudentOutputController">
    <children>
       <ListView fx:id="listView" layoutX="7.0" layoutY="26.0" prefHeight="194.0" prefWidth="243.0" />
       <Label layoutX="76.0" layoutY="4.0" text="List of Students">

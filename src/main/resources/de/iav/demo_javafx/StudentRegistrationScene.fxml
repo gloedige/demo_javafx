@@ -12,6 +12,25 @@
    <children>
       <TextField fx:id="studentId" layoutX="192.0" layoutY="62.0" />
       <TextField fx:id="studentName" layoutX="192.0" layoutY="110.0" />
+      <ComboBox fx:id="coursesComboBox" layoutX="193.0" layoutY="162.0" prefHeight="25.0" prefWidth="160.0" />
+      <ChoiceBox fx:id="isActiveChoiceBox" layoutX="192.0" layoutY="212.0" prefHeight="26.0" prefWidth="160.0">
+
+      </ChoiceBox>
+      <Button layoutX="57.0" layoutY="256.0" mnemonicParsing="false" onAction="#switchToListScene" text="Register">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="resetButton" layoutX="170.0" layoutY="256.0" mnemonicParsing="false" onMouseClicked="#clearForm" text="Reset">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="backToWelcome" layoutX="268.0" layoutY="256.0" mnemonicParsing="false" onAction="#switchToWelcomeScene" text="Welcome">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
       <Text layoutX="59.0" layoutY="80.0" strokeType="OUTSIDE" text="Student ID:">
          <font>
             <Font size="16.0" />
@@ -37,24 +56,5 @@
             <Font size="16.0" />
          </font>
       </Text>
-      <ChoiceBox fx:id="isActiveChoiceBox" layoutX="192.0" layoutY="212.0" prefHeight="26.0" prefWidth="160.0">
-
-      </ChoiceBox>
-      <Button layoutX="57.0" layoutY="256.0" mnemonicParsing="false" onAction="#switchToListScene" text="Register">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Button>
-      <Button fx:id="resetButton" layoutX="170.0" layoutY="256.0" mnemonicParsing="false" onMouseClicked="#clearForm" text="Reset">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Button>
-      <ComboBox fx:id="coursesComboBox" layoutX="193.0" layoutY="162.0" prefHeight="25.0" prefWidth="160.0" />
-      <Button fx:id="backToWelcome" layoutX="268.0" layoutY="256.0" mnemonicParsing="false" text="Welcome">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Button>
    </children>
 </AnchorPane>

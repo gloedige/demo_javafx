@@ -15,7 +15,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class FeedBackController {
+public class StudentOutputController {
 
     private Scene scene;
     private Stage stage;
@@ -29,7 +29,7 @@ public class FeedBackController {
 
     @FXML
     public void switchToInputScene(ActionEvent event) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/de/iav/demo_javafx/StudentDB_SceneBuilder_ChoiceBox.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/de/iav/demo_javafx/StudentRegistrationScene.fxml"));
         root = loader.load();
 
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
@@ -41,7 +41,7 @@ public class FeedBackController {
 
     public void addStudentToList(Student student){
 
-        listView.getItems().add(student.name() + student.id());
+        listView.getItems().add(student.name() + "-" + student.id());
     }
 
     public void deleteStudent(){
