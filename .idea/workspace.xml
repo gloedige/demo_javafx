@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f5e2cc-d233-4c3a-a7ed-363154653cac" name="Changes" comment="Rename of Controller and fxml-files. Sort order in StudentRegistrationScene.fxml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/service/Studentenservice.java" afterDir="false" />
+    <list default="true" id="09f5e2cc-d233-4c3a-a7ed-363154653cac" name="Changes" comment="Add Studentenservice but with Singelton only">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/service/Studentservice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/StudentOutputController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/StudentOutputController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/StudentInputController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/StudentInputController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/service/Studentenservice.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,23 +33,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/gloedige/Documents/projects/demo_JavaFX/src/main/resources/de/iav/demo_javafx",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.JavaFX",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gloedige/Documents/projects/demo_JavaFX/src/main/resources/de/iav/demo_javafx&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/de/iav/demo_javafx" />
@@ -110,7 +111,8 @@
       <workItem from="1687942526458" duration="10701000" />
       <workItem from="1687962531972" duration="5558000" />
       <workItem from="1688024576662" duration="8465000" />
-      <workItem from="1688113122434" duration="21714000" />
+      <workItem from="1688113122434" duration="21761000" />
+      <workItem from="1688406547131" duration="5816000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1688044245229</created>
@@ -147,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688139148105</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Studentenservice but with Singelton only">
+      <created>1688141363812</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688141363812</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +168,19 @@
     <MESSAGE value="Übergabe in Liste funktioniert!" />
     <MESSAGE value="Create a delete methode in FeedBackController" />
     <MESSAGE value="Rename of Controller and fxml-files. Sort order in StudentRegistrationScene.fxml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename of Controller and fxml-files. Sort order in StudentRegistrationScene.fxml" />
+    <MESSAGE value="Add Studentenservice but with Singelton only" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Studentenservice but with Singelton only" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/iav/demo_studentdb/StudentInputController.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
